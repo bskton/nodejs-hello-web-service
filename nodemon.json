@@ -1,0 +1,8 @@
+{
+    "verbose": true,
+    "ignore": ["README.md", "docker/*", "docker-compose.yml"],
+    "execMap": {
+      "rb": "ruby",
+      "pde": "processing --sketch={{pwd}} --run"
+    }
+  }
